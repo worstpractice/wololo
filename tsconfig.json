@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "ESNext",
+		"outDir": "out",
+		"lib": [
+			"ESNext"
+		],
+		"sourceMap": true,
+		"rootDir": "src",
+		"strict": true,
+    "importHelpers": true,
+    "downlevelIteration": true,
+    "alwaysStrict": true,
+    "importsNotUsedAsValues": "remove",
+    "useDefineForClassFields": true,
+    "noEmitHelpers": false,
+	},
+	"exclude": [
+		"node_modules",
+		".vscode-test"
+	]
+}
